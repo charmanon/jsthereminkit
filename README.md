@@ -1,2 +1,2 @@
-# jsdrumkit
-Vanilla JS drum kit playable with keyboard
+# JS Theremin Kit
+Vanilla JS theremin kit playable with keyboard

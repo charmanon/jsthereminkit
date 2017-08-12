@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="./assets/style.css" rel="stylesheet">
+  <title>Javascript theremin kit</title>
+</head>
+
+<body>
+  <main class="main">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">Classic</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">Dive</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">Pulse</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">Saw</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">Scare</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">Sine</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">Whistle</span>
+    </div>
+  </main>
+
+  <audio data-key="65" src="assets/sounds/classic.wav"></audio>
+  <audio data-key="83" src="assets/sounds/dive.wav"></audio>
+  <audio data-key="68" src="assets/sounds/pulsewave.wav"></audio>
+  <audio data-key="70" src="assets/sounds/sawwave.wav"></audio>
+  <audio data-key="71" src="assets/sounds/scare.mp3"></audio>
+  <audio data-key="72" src="assets/sounds/sinewave.wav"></audio>
+  <audio data-key="74" src="assets/sounds/sinewave.wav"></audio>
+
+  <script src="./assets/app.js">
+  </script>
+</body>
+
+</html>
