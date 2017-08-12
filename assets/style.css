@@ -43,3 +43,15 @@ kbd {
 	margin: auto;
 	font-size: 0.2em;
 }
+
+footer {
+	bottom: 10px;
+	left: 10px;
+	font-size: 0.2em;
+	position: fixed;
+	color: #faff04;
+}
+
+a:visited {
+	color: #faff04;
+}
